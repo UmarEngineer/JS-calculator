@@ -128,13 +128,19 @@ form {
 
 .result-screen__small {
     width: 335px;
-    font-size: 1rem;
-    padding: 2.4rem 1rem 1rem;
-    background: rgb(255, 255, 255);
+    height: 143px;
+    font-size: 1.5rem;
+    padding: 4rem 1rem 1rem;
+    background-color: #17171C;
     color: rgb(2, 102, 2);
-    border: 2px solid #4d148c;
     border-radius: 5px;
+    outline: none;
+    border: none;
     text-align: right;
+}
+
+.result-screen__small:focus{
+    outline: none;
 }
 
 ::placeholder {
@@ -210,6 +216,10 @@ button:hover {
     }
     .result-screen__small {
         font-size: 0.8rem;
+        max-width: 375px;
+        width: 95%;
+        font-size: 1rem;
+        height: 123px;
     }
 
     .buttons{

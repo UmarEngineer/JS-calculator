@@ -22,8 +22,8 @@
                 resultScreen.value = "";
                 resultScreen.className = 'result-screen';
             }, 2000);
-        } else {
-            console.log(resultScreen.value)
+        }
+        else {
             let answer = eval(resultScreen.value);
             answerScreen.value = resultScreen.value;
             resultScreen.value = answer;
@@ -40,6 +40,7 @@
         if (resultScreen.value != "") {
             resultScreen.value = resultScreen.value.slice(0, -1);
         }
+
         if (resultScreen.value == "") {
             resultScreen.value = answerScreen.value
             answerScreen.value = "";

@@ -128,7 +128,7 @@ form {
     width: 335px;
     font-size: 1rem;
     padding: 2.4rem 1rem 1rem;
-    background: rgb(255, 255, 255);
+    background: #F1F2F3;
     color: rgb(2, 102, 2);
     border: 2px solid #4d148c;
     border-radius: 5px;
@@ -212,6 +212,9 @@ button:hover {
     }
     .result-screen__small {
         font-size: 0.8rem;
+        max-width: 375px;
+        width: 95%;
+        font-size: 0px;
     }
 
     .buttons{
