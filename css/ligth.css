@@ -176,7 +176,15 @@ button {
 }
 
 button:hover {
-    background: rgb(212, 212, 212);
+    background: rgb(219, 219, 219);
+}
+
+.btn-grey:hover{
+    background: rgb(194, 194, 194);
+}
+
+.btn-blue:hover{
+    background: #4672fe;
 }
 
 @media screen and (max-width: 400px) {

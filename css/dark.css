@@ -155,8 +155,6 @@ form {
 
 .btn-grey{
     background: #4E505F;
-
-
 }
 
 button {
@@ -176,7 +174,15 @@ button {
 }
 
 button:hover {
-    background: rgb(212, 212, 212);
+    background: #4E505F;
+}
+
+.btn-grey:hover{
+    background: #2E2F38;
+}
+
+.btn-blue:hover{
+    background: #7481f7;
 }
 
 @media screen and (max-width: 400px) {
