@@ -30,6 +30,25 @@
         }
     });
 
+    document.addEventListener('keydown', function(e){
+        if(e.keyCode === 13){
+            if (resultScreen.value === "") {
+                resultScreen.className = 'result-screen__small';
+                resultScreen.value = "Iltimos, avval sonni kiriting";
+
+                setTimeout(() => {
+                    resultScreen.value = "";
+                    resultScreen.className = 'result-screen';
+                }, 2000);
+            }
+            else {
+                let answer = eval(resultScreen.value);
+                answerScreen.value = resultScreen.value;
+                resultScreen.value = answer;
+            }
+        }
+    })
+
     clear.addEventListener('click', function(e) {
         resultScreen.value = "";
         answerScreen.value = "";
